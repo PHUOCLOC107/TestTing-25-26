@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Filter_MissingDistrict</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1cd60648-09ca-4d69-bddf-2331844e1826</testCaseGuid>
+</TestCaseEntity>

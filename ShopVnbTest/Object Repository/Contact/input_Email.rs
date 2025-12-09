@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Email</name>
+   <tag></tag>
+   <elementGuidId>be2ce10e-2303-480b-a118-7292452cf5a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.group_contact > .row > div:nth-child(2)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a7efa0cd-cb51-4754-84ae-33b803c83e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-lg-6 col-md-6 col-sm-12 col-12</value>
+      <webElementGuid>68c63525-a1f7-4ec8-ad38-faf654a54b36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contact&quot;)/div[@class=&quot;group_contact&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-12 col-12&quot;]</value>
+      <webElementGuid>f01200c5-7194-4509-8325-c1dca7922d76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='contact']/div/div/div[2]</value>
+      <webElementGuid>a25ea51b-cf9d-4cd2-84c4-03c389740ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ với chúng tôi'])[1]/following::div[5]</value>
+      <webElementGuid>2f533d86-c82b-40d1-b502-cc43ae17cd2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info@shopvnb.com'])[1]/following::div[6]</value>
+      <webElementGuid>d192aaca-77c3-40ae-b238-e61a2c17f29c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gửi thông tin'])[1]/preceding::div[2]</value>
+      <webElementGuid>66f0260d-57d6-4543-9130-0335edc224e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/form/div/div/div[2]</value>
+      <webElementGuid>e280a235-acc3-4b84-8e82-8757e9d5a75c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

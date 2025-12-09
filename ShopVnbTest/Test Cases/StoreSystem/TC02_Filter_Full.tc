@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Filter_Full</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fddf105-2cba-4c0e-96a8-5fb6b0d2301e</testCaseGuid>
+</TestCaseEntity>

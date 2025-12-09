@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Filter_OnlyDistrict</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6ccfa17-eb9c-439f-9873-c538b184212a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_NoResult_Dropdown</name>
+   <tag></tag>
+   <elementGuidId>b648fd3b-610b-43ef-8f53-f5805cbcc168</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@class, 'select2-results__message')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.select2-results__option.select2-results__message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No results found&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>b8cde261-0f67-4c74-992a-2bb562ce3945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>401dc478-46cd-42e5-9d96-197bac7c09fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>assertive</value>
+      <webElementGuid>ac5c8939-f383-471e-95b7-7e8e71ef3dca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-results__option select2-results__message</value>
+      <webElementGuid>fb27e96a-7dfb-46d2-9d43-f182c1cf5772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No results found</value>
+      <webElementGuid>af12aaf6-f834-45e1-8bd5-e3980c368849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-district-results&quot;)/li[@class=&quot;select2-results__option select2-results__message&quot;]</value>
+      <webElementGuid>e5311381-f129-481d-b279-2bc75c4c21e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='select2-district-results']/li</value>
+      <webElementGuid>476e8c56-9305-4edf-913b-7fda9181df51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn quận/huyện'])[1]/following::li[1]</value>
+      <webElementGuid>9f01fbc8-8c0b-4500-a467-5f15ba335182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn tỉnh thành'])[1]/following::li[1]</value>
+      <webElementGuid>d7586446-900b-4253-936e-8c67ac44dfff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VNB Super Center'])[1]/preceding::li[1]</value>
+      <webElementGuid>8bc205f2-4109-4557-99b1-a2b44bb4ad15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VNB PREMIUM Quận 1'])[1]/preceding::li[1]</value>
+      <webElementGuid>1c1dc681-cc9a-4bc5-b5d5-9d57741fbc51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No results found']/parent::*</value>
+      <webElementGuid>db2b4c18-755c-47de-b673-6e73acc2129d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/ul/li</value>
+      <webElementGuid>3a8c832c-5eb7-43ba-a513-43f9fdb08d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'No results found' or . = 'No results found')]</value>
+      <webElementGuid>98dd0d68-d6e6-46a5-be9b-ac0a7f37c974</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

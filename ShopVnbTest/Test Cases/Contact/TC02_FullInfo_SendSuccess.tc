@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SearchAndProductDetail</name>
+   <name>TC02_FullInfo_SendSuccess</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0f191f16-c3c2-41a4-b5d2-c477db33a784</testCaseGuid>
+   <testCaseGuid>daece276-5347-4032-acbc-0a6ab8f981c4</testCaseGuid>
 </TestCaseEntity>

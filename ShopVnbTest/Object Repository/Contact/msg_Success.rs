@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_Success</name>
+   <tag></tag>
+   <elementGuidId>0a0226ee-886c-4981-b0d5-b621e4a9271b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mr-bottom-20 > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='box-wrapper']/div[2]/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Thông tin liên hệ đã được gửi đi thành công&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b737cb5e-3115-47d4-83d4-7ca4b553bd39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thông tin liên hệ đã được gửi đi thành công</value>
+      <webElementGuid>b3d1d1b7-5a54-4cb8-92a5-91a51d438ca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;box-wrapper&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;mr-bottom-20&quot;]/p[1]</value>
+      <webElementGuid>aa2a668b-5acb-4fb1-8ca0-a124cd8db713</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='box-wrapper']/div[2]/div/div/div/p</value>
+      <webElementGuid>d050488d-8c9e-43b5-a462-7ac5ffae1758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thông báo'])[2]/following::p[1]</value>
+      <webElementGuid>7a5b0135-2c2c-44be-abdd-2e8122c223e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ'])[1]/following::p[1]</value>
+      <webElementGuid>8fe7f3a4-7f17-4c79-ab7e-6161800d50aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trang chủ'])[2]/preceding::p[1]</value>
+      <webElementGuid>2dd93b20-f193-4374-876c-9051a7434317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thông tin chung'])[1]/preceding::p[1]</value>
+      <webElementGuid>72356a09-a848-48e4-a1c6-e0640c32243b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thông tin liên hệ đã được gửi đi thành công']/parent::*</value>
+      <webElementGuid>a35e4a80-13c3-42d5-a928-47affc7050be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p</value>
+      <webElementGuid>71610bbc-b9c4-48e6-b0f4-c5afa7efd977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Thông tin liên hệ đã được gửi đi thành công' or . = 'Thông tin liên hệ đã được gửi đi thành công')]</value>
+      <webElementGuid>861c49ec-41ce-4e3a-9c4f-200bb2170981</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

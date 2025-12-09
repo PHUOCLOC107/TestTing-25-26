@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_View_StoreDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02242a5f-ce89-4415-8cd9-5de1b41edcb4</testCaseGuid>
+</TestCaseEntity>

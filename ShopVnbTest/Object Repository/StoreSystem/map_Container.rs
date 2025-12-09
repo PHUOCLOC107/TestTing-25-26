@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>map_Container</name>
+   <tag></tag>
+   <elementGuidId>5b43bb30-6d5a-4d05-b572-18f3ee9e5b50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.pagebody > iframe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>iframe >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>96107312-cc89-4ce9-aa44-336197a12963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5083158583316!2d106.75078337480606!3d10.848889289304305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527536c8ed6e1%3A0xc425fb7470387726!2zVk5CIFByZW1pdW0gVGjhu6cgxJDhu6lj!5e0!3m2!1svi!2s!4v1722322923911!5m2!1svi!2s&amp;gidzl=NOWHCHq6g5nLaH4-7nggMLMQ6ZW34V0FGfv8ObiNfWv5cnS-MHFz3aVEJMqA4_m9Gf91Q39ukOXL50cWL0</value>
+      <webElementGuid>ac4d1c11-7dc9-4a3e-b5d4-755f73d2e0dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>600</value>
+      <webElementGuid>325093dd-9c1b-42ae-90cd-edd8ed0c10ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>450</value>
+      <webElementGuid>14a1f373-edec-43e1-a0fa-7dc78536b563</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bodywrap&quot;]/section[@class=&quot;page page-store&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7 col-lg-8 col-xs-12 col-12 col-right&quot;]/div[@class=&quot;pagebody&quot;]/iframe[1]</value>
+      <webElementGuid>60458abd-fe13-4c7d-839d-a471488bc140</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/iframe</value>
+      <webElementGuid>76db9bf9-145e-4aee-b05e-ef1566130435</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5083158583316!2d106.75078337480606!3d10.848889289304305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527536c8ed6e1%3A0xc425fb7470387726!2zVk5CIFByZW1pdW0gVGjhu6cgxJDhu6lj!5e0!3m2!1svi!2s!4v1722322923911!5m2!1svi!2s&amp;gidzl=NOWHCHq6g5nLaH4-7nggMLMQ6ZW34V0FGfv8ObiNfWv5cnS-MHFz3aVEJMqA4_m9Gf91Q39ukOXL50cWL0']</value>
+      <webElementGuid>2a571ece-00e6-4d4e-a232-e25f5370f2ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
