@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Rating_Spam</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9ecefab9-86b7-476e-b98a-99e8f9145f69</testCaseGuid>
-</TestCaseEntity>

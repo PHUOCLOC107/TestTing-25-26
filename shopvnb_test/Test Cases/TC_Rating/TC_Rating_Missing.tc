@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Rating_Missing</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d03cb359-eefe-492f-8adc-7546fa2a62d4</testCaseGuid>
-</TestCaseEntity>

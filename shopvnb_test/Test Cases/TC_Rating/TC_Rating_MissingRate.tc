@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Rating_MissingRate</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>af142321-0605-4f2a-a677-a5c02c061ed9</testCaseGuid>
-</TestCaseEntity>

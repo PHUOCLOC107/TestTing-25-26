@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Filter_PageNext</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>edd817f0-bf57-4aeb-9c41-f43daaa868fa</testCaseGuid>
-</TestCaseEntity>

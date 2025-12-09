@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Rating_InvalidPhone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee621d43-3b57-46cd-9a34-6d4bffeb4030</testCaseGuid>
+</TestCaseEntity>

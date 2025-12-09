@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Filter_Brand</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>559287ec-95bf-4de2-8bf7-6b7594db8f16</testCaseGuid>
-</TestCaseEntity>
