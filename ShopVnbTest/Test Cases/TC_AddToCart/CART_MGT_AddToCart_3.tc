@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CART_MGT_AddToCart_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2db36dd6-cfc8-4022-8b59-a2055a60c66c</testCaseGuid>
+</TestCaseEntity>
