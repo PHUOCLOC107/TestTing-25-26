@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ForgotPass3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cacdfe62-8fc6-461d-8217-5109ce5d8fe0</testCaseGuid>
+</TestCaseEntity>
