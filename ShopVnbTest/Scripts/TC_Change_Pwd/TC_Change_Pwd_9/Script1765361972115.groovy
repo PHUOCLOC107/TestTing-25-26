@@ -19,7 +19,7 @@ WebUI.setText(findTestObject('Object Repository/ChangePassword/input_matKhau'), 
 WebUI.setText(findTestObject('Object Repository/ChangePassword/input_pass'), 'Linhhoai123')
 
 // Nhập lại mật khẩu mới
-WebUI.setText(findTestObject('Object Repository/ChangePassword/input_re_pass'), 'Linh hoai123')
+WebUI.setText(findTestObject('Object Repository/ChangePassword/input_re_pass'), 'Linhhoai123')
 
 // Click nút Lưu/Đổi
 WebUI.click(findTestObject('Object Repository/ChangePassword/btn_DoiMatKhau'))
