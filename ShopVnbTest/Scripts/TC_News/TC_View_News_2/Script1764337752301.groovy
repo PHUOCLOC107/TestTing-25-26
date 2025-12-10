@@ -7,24 +7,24 @@ WebUI.navigateToUrl('https://shopvnb.com')
 
 // Đợi trang chủ load xong và logo hiện ra
 WebUI.waitForPageLoad(15)
-WebUI.waitForElementVisible(findTestObject('ShopVNB/TinTuc/a_Tin tc'), 10)
+WebUI.waitForElementVisible(findTestObject('News/a_Tin tc'), 10)
 
 // BƯỚC 2: Click vào menu "Tin tức"
-WebUI.click(findTestObject('ShopVNB/TinTuc/a_Tin tc'))
+WebUI.click(findTestObject('News/a_Tin tc'))
 
 // Đợi trang Tin tức load xong
 WebUI.waitForPageLoad(15)
 
 // BƯỚC 3: Click vào bài viết có ảnh Review (đúng object bạn đã spy)
-WebUI.scrollToElement(findTestObject('ShopVNB/TinTuc/news'), 10)
-WebUI.click(findTestObject('ShopVNB/TinTuc/news'))
+WebUI.scrollToElement(findTestObject('News/news'), 10)
+WebUI.click(findTestObject('News/news'))
 
 // Đợi trang chi tiết bài viết load xong
 WebUI.waitForPageLoad(15)
 
 // Đóng trình duyệt
 WebUI.delay(2)
-WebUI.click(findTestObject('ShopVNB/TinTuc/a_Tin tc'))
+WebUI.click(findTestObject('News/a_Tin tc'))
 
 // Đợi trang Tin tức load xong
 WebUI.waitForPageLoad(15)

@@ -7,12 +7,12 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://shopvnb.com')
 
 // 1. Vào Tin tức
-WebUI.click(findTestObject('ShopVNB/TinTuc/a_Tin tc'))
+WebUI.click(findTestObject('News/a_Tin tc'))
 WebUI.waitForPageLoad(15)
 
 // 2. Tìm kiếm "cầu lông"
-WebUI.setText(findTestObject('ShopVNB/TinTuc/search_bar'), 'cầu lông')
-WebUI.sendKeys(findTestObject('ShopVNB/TinTuc/search_bar'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('News/search_bar'), 'cầu lông')
+WebUI.sendKeys(findTestObject('News/search_bar'), Keys.chord(Keys.ENTER))
 WebUI.waitForPageLoad(20)
 
 // 3. Cuộn xuống cuối trang để load phân trang
@@ -27,17 +27,17 @@ WebUI.delay(3)
 // Click trang 2, 3, 4 bằng text (chắc chắn đúng dù có tìm kiếm hay không)
 WebUI.executeJavaScript("window.scrollTo({ top: document.body.scrollHeight * 0.45, behavior: 'smooth' })", null)
 WebUI.delay(3)
-WebUI.click(findTestObject('ShopVNB/TinTuc/paging2'))
+WebUI.click(findTestObject('News/paging2'))
 WebUI.waitForPageLoad(15)
 
 WebUI.executeJavaScript("window.scrollTo({ top: document.body.scrollHeight * 0.45, behavior: 'smooth' })", null)
 WebUI.delay(3)
-WebUI.click(findTestObject('ShopVNB/TinTuc/paging3'))
+WebUI.click(findTestObject('News/paging3'))
 WebUI.waitForPageLoad(15)
 
 WebUI.executeJavaScript("window.scrollTo({ top: document.body.scrollHeight * 0.45, behavior: 'smooth' })", null)
 WebUI.delay(3)
-WebUI.click(findTestObject('ShopVNB/TinTuc/paging4'))
+WebUI.click(findTestObject('News/paging4'))
 WebUI.waitForPageLoad(15)
 WebUI.executeJavaScript("window.scrollTo({ top: document.body.scrollHeight * 0.45, behavior: 'smooth' })", null)
 WebUI.delay(3)

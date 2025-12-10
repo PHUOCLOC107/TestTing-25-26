@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>search_news_TC4</name>
+   <name>TC_Search_News_4</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

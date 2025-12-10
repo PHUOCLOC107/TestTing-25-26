@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>view_news</name>
+   <name>View_News</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>3</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>d7f0255b-f6e6-40de-960b-2c8373185eb4</testSuiteGuid>
+   <testSuiteGuid>9b84aa55-61ba-4a2b-89a6-fd4a6a753b5f</testSuiteGuid>
    <testCaseLink>
-      <guid>505bac71-1637-49dc-8654-fd33f9e63e7f</guid>
+      <guid>fd3a4680-5c24-4dba-a351-5a02f60e2184</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/view_news/test1</testCaseId>
-   </testCaseLink><testCaseLink>
-      <guid>bfcfef3e-c94d-4d75-b248-3c6492eccfcf</guid>
+      <testCaseId>Test Cases/TC_View_News_1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38894b6a-898f-488c-9a53-662b026fe14d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/view_news/test2</testCaseId>
+      <testCaseId>Test Cases/TC_View_News_2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
-    

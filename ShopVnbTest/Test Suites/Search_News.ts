@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>search_news</name>
+   <name>Search_News</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>3</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>955e5a5a-5ede-48da-b393-4859aede0109</testSuiteGuid>
+   <testSuiteGuid>069992a4-3cc1-45ea-a9cc-2938861e48f7</testSuiteGuid>
    <testCaseLink>
-      <guid>d031ef2a-2412-4a59-8526-1ebab29e43dd</guid>
+      <guid>8522da49-8b29-49f2-b01d-6a5a60919243</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_news/test1</testCaseId>
-   </testCaseLink><testCaseLink>
-      <guid>41333adb-6d70-4151-a9f4-33551243b50f</guid>
+      <testCaseId>Test Cases/TC_Search_News_1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>556d6c19-3fda-4f0e-a240-6b8f82d3b285</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_news/test2</testCaseId>
-   </testCaseLink><testCaseLink>
-      <guid>67c75436-e355-4b3e-bdc3-3c2f93faf014</guid>
+      <testCaseId>Test Cases/TC_Search_News_2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b327a76-5c6d-49af-af3f-c4aee0652bf3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_news/test3</testCaseId>
-   </testCaseLink><testCaseLink>
-      <guid>89af730b-82db-44e0-a8ae-c356fc7171b7</guid>
+      <testCaseId>Test Cases/TC_Search_News_3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eadbe140-ed39-457c-922e-053c095a80aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_news/test4</testCaseId>
-   </testCaseLink><testCaseLink>
-      <guid>c429f6a4-c2c5-4d7e-99ba-8e74af87f7bf</guid>
+      <testCaseId>Test Cases/TC_Search_News_4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2504a6a4-9d49-4e77-97be-a1072cd7a394</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_news/test5</testCaseId>
+      <testCaseId>Test Cases/TC_Search_News_5</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
-    
