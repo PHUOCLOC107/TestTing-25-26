@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4635a008-c760-4987-a1eb-5513d6537ce5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>069fd9d8-60d5-470a-a6d5-ed257377185b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Linhhoai123'</defaultValue>
+      <description></description>
+      <id>069fd9d8-60d5-470a-a6d5-ed257377185b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

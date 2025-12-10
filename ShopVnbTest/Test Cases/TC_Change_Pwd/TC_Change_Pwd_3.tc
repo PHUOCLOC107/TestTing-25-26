@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Change_Pwd_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b54bfd7a-fde2-41cd-97fb-74c1c85a2b51</testCaseGuid>
+</TestCaseEntity>
