@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_DangNhapNgay</name>
+   <name>btn_XacNhan</name>
    <tag></tag>
-   <elementGuidId>85a70640-d19c-44a2-ab67-edf87c6b229a</elementGuidId>
+   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Đăng nhập ngay') or contains(text(),'ĐĂNG NHẬP NGAY')]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(text(),'Xác nhận')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
