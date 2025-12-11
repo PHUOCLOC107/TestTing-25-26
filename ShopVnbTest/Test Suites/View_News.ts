@@ -12,17 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>9b84aa55-61ba-4a2b-89a6-fd4a6a753b5f</testSuiteGuid>
    <testCaseLink>
-      <guid>fd3a4680-5c24-4dba-a351-5a02f60e2184</guid>
+      <guid>9248cb1b-7947-433a-8d1d-d31510314d5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_View_News_1</testCaseId>
+      <testCaseId>Test Cases/TC_News/TC_View_News_1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>38894b6a-898f-488c-9a53-662b026fe14d</guid>
+      <guid>4d48324c-492b-44c1-894b-163a25ce3cab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_View_News_2</testCaseId>
+      <testCaseId>Test Cases/TC_News/TC_View_News_2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
