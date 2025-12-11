@@ -20,7 +20,7 @@ WebUI.setText(findTestObject('Object Repository/UpdateProfile/input_sdt'), '0398
 // 5. Chọn Ngày - Tháng - Năm sinh (Xử lý Dropdown)
 // Lưu ý: Không dùng click() hay type(), dùng selectOptionByLabel để chọn theo tên hiển thị
 WebUI.selectOptionByLabel(findTestObject('Object Repository/UpdateProfile/input_month'), 'Tháng 2', false)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/UpdateProfile/input_day'), '31', false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/UpdateProfile/input_day'), '29', false)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/UpdateProfile/input_year'), '2000', false)
 
 // 6. Chọn Giới tính (Nữ)
