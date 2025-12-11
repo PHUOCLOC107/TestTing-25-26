@@ -6,12 +6,11 @@
    <elementGuidId>8d3f163d-88f4-4d09-b90c-8d886944f038</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@name='note']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//textarea[@name='ghi_chu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

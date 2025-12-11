@@ -16,22 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebElement
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
+WebUI.callTestCase(findTestCase('TC_Checkout/TC_Checkout2'), [:], FailureHandling.STOP_ON_FAILURE)
 // 1. Điền thông tin (Máy tự điền)
-WebUI.setText(findTestObject('Page_Checkout/input_HoTen'), 'Sinh Vien Test')
-WebUI.setText(findTestObject('Page_Checkout/input_SDT'), '0901234567')
-WebUI.setText(findTestObject('Page_Checkout/input_DiaChi'), 'So 1 duong ABC')
-WebUI.setText(findTestObject('Page_Checkout/textarea_GhiChu'), 'Giao gio hanh chinh')
+WebUI.setText(findTestObject('Checkout/Page_Checkout/input_HoTen'), 'Sinh Vien Test')
+WebUI.setText(findTestObject('Checkout/Page_Checkout/input_SDT'), '0901234567')
+WebUI.setText(findTestObject('Checkout/Page_Checkout/input_DiaChi'), 'So 1 duong ABC')
 
-// --- DELAY 60s: CHỌN ĐỊA CHỈ & KIỂM TRA ---
-WebUI.comment('SCRIPT ĐANG DỪNG 60 GIÂY: Bạn hãy chọn Tỉnh/Thành, Quận/Huyện thủ công...')
-WebUI.delay(60)
-
-// 2. Cuộn xuống nút Đặt hàng
-WebUI.scrollToElement(findTestObject('Page_Checkout/btn_DatHang'), 3)
 
 // 3. Bấm đặt hàng (Bỏ comment dòng dưới nếu muốn chạy thật)
 // WebUI.click(findTestObject('Page_Checkout/btn_DatHang'))

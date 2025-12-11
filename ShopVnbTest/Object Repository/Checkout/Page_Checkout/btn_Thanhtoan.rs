@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_DiaChi</name>
+   <name>btn_Thanhtoan</name>
    <tag></tag>
-   <elementGuidId>ca8e9591-46a0-498f-a7f3-b94c1791b880</elementGuidId>
+   <elementGuidId>b1e3624d-6dc6-4400-b44b-a30130f70362</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='dia_chi']</value>
+         <value>//body[@id='page_gio_hang']/div[2]/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

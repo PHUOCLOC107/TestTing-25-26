@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_DiaChi</name>
+   <name>input_Email</name>
    <tag></tag>
-   <elementGuidId>ca8e9591-46a0-498f-a7f3-b94c1791b880</elementGuidId>
+   <elementGuidId>1dfe7f08-85eb-4a23-90c9-5750d73c4a58</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='dia_chi']</value>
+         <value>//input[@name='so_dt']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
