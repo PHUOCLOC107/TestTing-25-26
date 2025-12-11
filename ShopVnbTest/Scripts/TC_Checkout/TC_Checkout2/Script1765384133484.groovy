@@ -1,21 +1,32 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebElement
 
 // 1. Về trang chủ
+WebUI.callTestCase(findTestCase('TC_Checkout/TC_Checkout1'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://shopvnb.com/')
 
 // 2. Tìm kiếm
-WebUI.setText(findTestObject('Page_Home/input_Search'), 'Vợt cầu lông Yonex')
-WebUI.click(findTestObject('Page_Home/btn_Search_Icon'))
+//WebUI.setText(findTestObject('Object Reposity/Checkout/Page_Home/input_Search'), 'Vợt cầu lông Yonex')
+//WebUI.click(findTestObject('Page_Home/btn_Search_Icon'))
+WebUI.executeJavaScript("window.scrollTo(0, 1200);", null)
+WebUI.delay(1)
 
-// 3. Chọn sản phẩm đầu tiên
-WebUI.delay(2)
-WebUI.click(findTestObject('Page_Product/link_SanPhamDauTien'))
+WebUI.click(findTestObject('Home/Cat_GiayCauLong'))
+WebUI.click(findTestObject('Home/Product_Taro024'))
+WebUI.click(findTestObject('Product Detail/Color_TrangDo'))
+WebUI.executeJavaScript("window.scrollTo(0, 800);", null)
 
-// 4. Thêm vào giỏ
-WebUI.scrollToElement(findTestObject('Page_Product/btn_ThemVaoGio'), 3)
-WebUI.click(findTestObject('Page_Product/btn_ThemVaoGio'))
+WebUI.click(findTestObject('Product Detail/Btn_AddToCart'))
+WebUI.waitForElementVisible(findTestObject('Popup/Btn_XemGioHang'), 10)
 
-// 5. Bấm nút Thanh toán (trên Popup hoặc chuyển trang)
-WebUI.waitForElementVisible(findTestObject('Page_Product/btn_ThanhToan_Popup'), 10)
-WebUI.click(findTestObject('Page_Product/btn_ThanhToan_Popup'))
+WebUI.click(findTestObject('Popup/Btn_XemGioHang'))
+WebUI.waitForElementVisible(findTestObject('Checkout/Page_Checkout/btn_DatHang'), 10)
+
+WebUI.click(findTestObject('Checkout/Page_Checkout/btn_DatHang'))
+

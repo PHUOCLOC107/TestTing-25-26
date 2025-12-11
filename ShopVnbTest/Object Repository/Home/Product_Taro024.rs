@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='image_thumb' and contains(@href,'taro-tr024-2')]&#xd;
+         <value>//a[@class='image_thumb' and contains(@href,'taro-tr025-1')]&#xd;
 </value>
       </entry>
    </selectorCollection>

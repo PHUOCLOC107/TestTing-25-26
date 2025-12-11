@@ -6,12 +6,11 @@
    <elementGuidId>298038df-cc74-458c-8aa2-70f10844ca11</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),'Đặt hàng') or contains(text(),'Hoàn tất')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body[@id='page_gio_hang']/div[2]/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

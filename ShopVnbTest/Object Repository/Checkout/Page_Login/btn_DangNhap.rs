@@ -6,12 +6,11 @@
    <elementGuidId>2116d9f9-271c-405f-8911-bf67147a797e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),'Đăng nhập')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@type='submit' and @value='Đăng nhập']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

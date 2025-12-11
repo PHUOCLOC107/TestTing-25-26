@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_ThanhToan_Popup</name>
+   <name>Product_Taro024</name>
    <tag></tag>
-   <elementGuidId>6d4ebe51-601f-4749-b385-b2b716055964</elementGuidId>
+   <elementGuidId>48594905-c577-4256-9f17-5e0a1f1aa23a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Thanh toán')]</value>
+         <value>//a[@class='image_thumb' and contains(@href,'taro-tr024-2')]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
