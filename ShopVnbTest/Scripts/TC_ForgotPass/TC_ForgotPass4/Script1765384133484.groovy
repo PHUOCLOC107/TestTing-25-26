@@ -11,7 +11,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('TC_ForgotPass/TC_ForgotPass3'), [:], FailureHandling.STOP_ON_FAILURE)
 // 1. Script tự điền lại Email
-WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_Login/input_LoginEmail'), '22130066@st.hcmauf.edu.vn')
+WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_Login/input_LoginEmail'), 'Nhập email của bạn')
 
 // --- BẮT ĐẦU DELAY 60 GIÂY ---
 // Script đứng im. mở tab khác, check mail trường, copy pass mới và DÁN VÀO ô mật khẩu.

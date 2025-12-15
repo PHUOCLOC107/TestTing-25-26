@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('TC_ForgotPass/TC_ForgotPass2'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_ForgotPass/input_RecoverEmail'), '22130066@st.hcmuaf.edu.vn')
+WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_ForgotPass/input_RecoverEmail'), 'Nhập email của bạn')
 WebUI.delay(30) //nhập otp
 
 // Bấm nút Xác Nhận 

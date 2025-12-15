@@ -10,12 +10,12 @@ import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 WebUI.callTestCase(findTestCase('TC_ForgotPass/TC_ForgotPass1'), [:], FailureHandling.STOP_ON_FAILURE)
 // Điền Email của bạn
-WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_ForgotPass/input_RecoverEmail'), '22130066@st.hcmuaf.edu.vn')
+WebUI.setText(findTestObject('Object Repository/ForgotPass/Page_ForgotPass/input_RecoverEmail'), 'Nhập email của bạn và mã capcha')
 
 // --- BẮT ĐẦU DELAY 60 GIÂY ---
 // Script sẽ đứng im. Bạn hãy nhanh tay nhập Mã CAPTCHA vào ô bên cạnh.
 WebUI.comment('SCRIPT ĐANG DỪNG 60S ĐỂ BẠN NHẬP CAPTCHA THỦ CÔNG...')
-WebUI.delay(10) 
+WebUI.delay(60) 
 // -----------------------------
 
 // Sau 60s, Script sẽ tự bấm nút "LẤY LẠI MẬT KHẨU"
