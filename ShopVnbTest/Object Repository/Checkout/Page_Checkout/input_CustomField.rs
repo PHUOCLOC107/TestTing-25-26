@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_XacNhan</name>
+   <name>input_CustomField</name>
    <tag></tag>
-   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
+   <elementGuidId>dbf8b649-cbd0-4e63-9ccc-7f89d24cc686</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Xác nhận')]</value>
+         <value>//div[@id='info-user']/div[3]/div/div[2]/div[4]/div/div/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

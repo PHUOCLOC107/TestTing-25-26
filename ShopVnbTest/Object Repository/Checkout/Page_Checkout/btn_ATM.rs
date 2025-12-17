@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_XacNhan</name>
+   <name>btn_ATM</name>
    <tag></tag>
-   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
+   <elementGuidId>99ae5cfd-f520-43d4-a5f7-6fe72c8963b2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Xác nhận')]</value>
+         <value>//button[@id='btn-create-payment']/span[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

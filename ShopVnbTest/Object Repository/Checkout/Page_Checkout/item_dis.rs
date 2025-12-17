@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_XacNhan</name>
+   <name>item_dis</name>
    <tag></tag>
-   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
+   <elementGuidId>8c9a5180-e041-453a-998b-e93dfc9313d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Xác nhận')]</value>
+         <value>id=select2-district-container</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

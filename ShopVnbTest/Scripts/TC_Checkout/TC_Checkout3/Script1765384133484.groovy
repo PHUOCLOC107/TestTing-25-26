@@ -32,10 +32,9 @@ WebUI.callTestCase(findTestCase('TC_Checkout/TC_Checkout2'), [:], FailureHandlin
 WebUI.setText(findTestObject('Checkout/Page_Checkout/input_HoTen'), 'Sinh Vien Test')
 WebUI.setText(findTestObject('Checkout/Page_Checkout/input_SDT'), '0901234567')
 WebUI.setText(findTestObject('Checkout/Page_Checkout/input_DiaChi'), 'So 1 duong ABC')
-
+//2. Đổi cách thanh toán (COD hoặc chuyển khoản)
 
 // 3. Bấm đặt hàng (Bỏ comment dòng dưới nếu muốn chạy thật)
 // WebUI.click(findTestObject('Page_Checkout/btn_DatHang'))
 
 WebUI.comment('Đã điền xong thông tin. Kết thúc quá trình test.')
-WebUI.closeBrowser()

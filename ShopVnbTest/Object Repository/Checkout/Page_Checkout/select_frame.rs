@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_XacNhan</name>
+   <name>select_frame</name>
    <tag></tag>
-   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
+   <elementGuidId>0e45f069-75db-4f84-888e-1582925d2bc5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Xác nhận')]</value>
+         <value>//iframe[contains(@src, 'payment-b2b.baokim.vn')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

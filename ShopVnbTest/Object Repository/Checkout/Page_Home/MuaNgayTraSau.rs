@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_XacNhan</name>
+   <name>MuaNgayTraSau</name>
    <tag></tag>
-   <elementGuidId>badc4a6d-e913-4444-8a5e-64a8ca8fbd1f</elementGuidId>
+   <elementGuidId>9fe73345-1eb6-4f98-98da-421d2c18fcfa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(text(),'Xác nhận')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://pc.baokim.vn/platform/img/home-paylater-ngang-small.svg')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
