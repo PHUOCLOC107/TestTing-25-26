@@ -41,8 +41,8 @@ WebUI.delay(2)
 // --- Điền thông tin đánh giá ---
 WebUI.setText(findTestObject('Object Repository/Rating/Form_DanhGia/Input_HoTen'), 'Vo Phuoc Loc')
 WebUI.setText(findTestObject('Object Repository/Rating/Form_DanhGia/Input_SoDT'), '0987654321')
-WebUI.uploadFile(findTestObject('Object Repository/Rating/Form_DanhGia/Input_Img'),
-		"C:\\Users\\Admin\\Pictures\\Screenshots\\calibar001c.jpg")
+//WebUI.uploadFile(findTestObject('Object Repository/Rating/Form_DanhGia/Input_Img'),
+//		"C:\\Users\\Admin\\Pictures\\Screenshots\\calibar001c.jpg")
 // Lấy WebElement từ TestObject
 WebElement noiDungEl = WebUI.findWebElement(findTestObject('Rating/Form_DanhGia/NoiDung'))
 
