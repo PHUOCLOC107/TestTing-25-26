@@ -17,7 +17,10 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Checkout/Page_Home
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Home/lbl_PhuongAn'))
 
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Home/btn_CheckLogo1'))
-WebUI.delay(5)
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Checkout/kyhan'))
+WebUI.delay(10)
 
 // Click vào link 'Tiếp tục'
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Home/lnk_TiepTuc'))
